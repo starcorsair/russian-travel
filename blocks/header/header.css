@@ -1,0 +1,12 @@
+.header {
+  min-height: 4.39%;
+  min-width: 90%;
+  margin-top: 1.75rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 4fr 0fr 0.1fr;
+  /*потом уберу*/
+  border: 1px solid red;
+}
