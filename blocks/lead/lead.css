@@ -1,5 +1,5 @@
 .lead {
   border: 1px solid red;
-  margin-top: 3.5rem;
-  position: relative;
+  margin: 3.5rem 9.25rem 0;
+  min-width: 61.5rem;
 }

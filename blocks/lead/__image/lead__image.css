@@ -1,0 +1,6 @@
+.lead__image {
+  width: 100%;
+  object-fit: cover;
+  min-height: 38.4375rem;
+  margin: 4rem auto 0.5rem;
+}
