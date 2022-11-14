@@ -1,4 +1,9 @@
 .photo-grid {
-  margin: 5.75rem 3rem 0;
+  border: 1px solid red;
+  margin: 5.75rem 0 auto;
+  padding: 0;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17.75rem, 0fr));
+  grid-gap: 16px;
+  justify-content: center;
 }
