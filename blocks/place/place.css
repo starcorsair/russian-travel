@@ -1,0 +1,23 @@
+.place {
+  margin-bottom: 5rem;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(28.75rem, 30.25rem) 28.5rem;
+  grid-template-rows: 4.75rem 2fr;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 3rem;
+}
+
+.place:nth-child(1) {
+  grid-template-rows: 9.5rem 2fr;
+}
+.place:nth-child(4) {
+  grid-template-rows: 9.5rem 2fr;
+}
+.place:nth-child(5) {
+  margin-bottom: 0;
+}

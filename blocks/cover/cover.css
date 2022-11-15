@@ -1,0 +1,12 @@
+.cover {
+  border: 1px solid red;
+  margin: 5.75rem auto 10px;
+  padding: 0;
+  width: 1184px;
+  height: 740px;
+  background-image: url(/images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2a2c2f;
+}
