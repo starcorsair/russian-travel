@@ -21,3 +21,15 @@
 .place:nth-child(5) {
   margin-bottom: 0;
 }
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    display: block;
+    width: 90%;
+  }
+}

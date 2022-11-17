@@ -1,0 +1,10 @@
+.footer {
+  margin: 0 3rem 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    display: block;
+  }
+}

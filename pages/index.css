@@ -29,6 +29,13 @@
 @import url(../blocks/place/__website/_link/place__webcite_link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph/_page/place__paragraph_page.css);
+/*block cover*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+/*block footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer.links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

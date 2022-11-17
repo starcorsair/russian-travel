@@ -10,3 +10,8 @@
   /*потом уберу*/
   border: 1px solid red;
 }
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 1rem auto 1rem;
+  }
+}

@@ -3,3 +3,8 @@
   margin: 5.75rem 9.25rem 0;
   padding: 0;
 }
+@media screen and (max-width: 320px) {
+  .places {
+    margin: 5.75rem auto 0;
+  }
+}
