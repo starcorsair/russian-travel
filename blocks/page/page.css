@@ -4,4 +4,5 @@
   font-family: "Inter", sans-serif;
   font-size: 16px;
   background-color: #181a19;
+  overflow-x: hidden;
 }

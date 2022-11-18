@@ -6,12 +6,22 @@
   margin-right: 3rem;
   margin-bottom: 0;
   display: grid;
-  grid-template-columns: 4fr 0fr 0.1fr;
-  /*потом уберу*/
-  border: 1px solid red;
+  grid-template-columns: 176px 1fr 30px 16px 30px;
 }
 @media screen and (max-width: 320px) {
   .header {
-    margin: 1rem auto 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    max-width: 288px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 1.75rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
   }
 }

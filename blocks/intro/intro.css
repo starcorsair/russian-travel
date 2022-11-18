@@ -1,17 +1,16 @@
 .intro {
   margin: 5.75rem 27.625rem 0 9.25rem;
   min-width: 43.125rem;
-  border: 1px solid red;
 }
 @media screen and (max-width: 320px) {
   .intro {
     min-width: 90%;
-    margin: 5.75rem auto;
+    margin: 4rem 1rem;
   }
 }
 @media screen and (max-width: 768px) {
   .intro {
     min-width: 90%;
-    margin: 5.75rem auto;
+    margin: 5.75rem 1.5rem 0;
   }
 }

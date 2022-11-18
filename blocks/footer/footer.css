@@ -5,6 +5,16 @@
 }
 @media screen and (max-width: 320px) {
   .footer {
-    display: block;
+    margin: 0 0 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 288px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0 0 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
   }
 }

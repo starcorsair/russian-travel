@@ -23,13 +23,29 @@
 }
 @media screen and (max-width: 320px) {
   .place {
-    display: block;
-    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .place {
-    display: block;
-    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .place {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr) 1fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3rem;
   }
 }

@@ -7,3 +7,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
+@media screen and (max-width: 320px) {
+  .footer__link {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__link {
+    margin-bottom: 2rem;
+  }
+}

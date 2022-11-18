@@ -2,11 +2,7 @@
   margin: 5.75rem 3rem 5.75rem;
   padding: 0;
 }
-@media screen and (min-width: 1280) {
-  .cover {
-    width: 90%;
-  }
-}
+
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 64rem;
@@ -21,7 +17,7 @@
 }
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 20rem;
+    max-width: 100%;
     margin: 4.125rem 0 4rem;
   }
 }

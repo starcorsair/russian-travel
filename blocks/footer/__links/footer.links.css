@@ -8,6 +8,21 @@
 }
 @media screen and (max-width: 320px) {
   .footer__links {
-    display: block;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(5, 0fr);
+    grid-row-gap: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(5, 0fr);
+    grid-row-gap: 32px;
   }
 }
