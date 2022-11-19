@@ -5,6 +5,7 @@
 - Интро
 - Цель
 - Технологии
+- Сайт проекта
 
 **Интро**
 
@@ -16,3 +17,6 @@
 
 **Технологии**
 Css, html, grid, flex;
+
+**Сайт проекта**
+https://paulinn-light.github.io/russian-travel/
