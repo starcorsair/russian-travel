@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествие по России</title>
-    <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="vendor/fonts/fonts.css" />
+    <link rel="icon" href="images/header-logo.svg" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <!--импортирован шрифт в index.css-->
   </head>
   <body class="page">
     <!--header-->
@@ -14,6 +15,7 @@
       <img class="header__logo" src="images/header-logo.svg" alt="Логотип" />
       <a></a>
       <a href="#" class="header__lang-link">Ru</a>
+      <!--Сделать активное состоянин ссылки-->
       <a></a>
       <a href="#" class="header__lang-link">En</a>
     </header>
@@ -47,99 +49,98 @@
           достойные вашего отпуска.
         </p>
         <ul class="intro__text-caption">
+          <!--убран лишний класс-->
           <li>
-            <span class="intro__text-caption intro__text-caption_accent"
-              >Часовых поясов </span
-            >11
+            <span class="intro__text-caption_accent">Часовых поясов </span>11
           </li>
           <li>
-            <span class="intro__text-caption intro__text-caption_accent"
+            <span class="intro__text-caption_accent"
               >Объектов природного наследия ЮНЕСКО</span
             >
             12
           </li>
           <li>
-            <span class="intro__text-caption intro__text-caption_accent">
+            <span class="intro__text-caption_accent">
               Объектов культурного наследия ЮНЕСКО</span
             >
             16
           </li>
           <li>
-            <span class="intro__text-caption intro__text-caption_accent"
+            <span class="intro__text-caption_accent"
               >Природных заповедников</span
             >
             105
           </li>
           <li>
-            <span class="intro__text-caption intro__text-caption_accent"
-              >Аэропортов</span
-            >
+            <span class="intro__text-caption_accent">Аэропортов</span>
             241
           </li>
         </ul>
       </section>
       <!--grid-->
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="Грид-альбом с фото">
+        <!--добавлен aria-->
         <!--grid cards-->
+        <!--изменены подписи alt-->
         <img
           class="photo-grid__item"
           src="images/photo-grid-train.jpg"
-          alt="Грид"
+          alt="Поезд"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-atharva-tulsi.jpg"
-          alt="Грид"
+          alt="Атахарва"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-tuman.jpg"
-          alt="Грид"
+          alt="Туманный лес"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-sochi.jpg"
-          alt="Грид"
+          alt="Сочи"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-arisa.jpg"
-          alt="Грид"
+          alt="Ариза"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-baikal.jpg"
-          alt="Грид"
+          alt="Байкал"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-elbrus.jpg"
-          alt="Грид"
+          alt="Эльбрус"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-kondratiev.jpg"
-          alt="Грид"
+          alt="Кондратьев"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-kamchatka-1.jpg"
-          alt="Грид"
+          alt="Камчатка"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-kamchatka-2.jpg"
-          alt="Грид"
+          alt="Второе фото Камчатки"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-baikal-2.jpg"
-          alt="Грид"
+          alt="Второе фото Байкала"
         />
         <img
           class="photo-grid__item"
           src="images/photo-grid-ergaki.jpg"
-          alt="Грид"
+          alt="Эргаки"
         />
       </section>
       <!--plases-->
@@ -150,6 +151,7 @@
 
           <div class="place__website">
             <p class="url-heading">URL</p>
+            <!--Переделать название класса в place__url-heading-->
             <a class="url" href="park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img
@@ -294,19 +296,22 @@
             src="images/place-karelia.jpg"
             alt="Карелия"
           />
-          <p class="place__paragraph">
-            Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии:
-            образующая тайгу сибирская лиственница не&nbsp;растёт западнее
-            Водлозера. Зато здесь она вымахивает
-            на&nbsp;30&nbsp;метров&nbsp;&mdash; леса карельских национальных
-            парков из-за непроходимых болот никогда не&nbsp;знали топора.
-            Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь
-            к&nbsp;живому существу, видевшему солнце раньше, чем увидал его Иван
-            Грозный. В&nbsp;девственном лесу на сотню километров
-            не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в
-            паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все
-            знали, кто тут хозяин.
-          </p>
+          <div class="place__paragraphs">
+            <!--параграф был обернут в див-->
+            <p class="place__paragraph">
+              Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии:
+              образующая тайгу сибирская лиственница не&nbsp;растёт западнее
+              Водлозера. Зато здесь она вымахивает
+              на&nbsp;30&nbsp;метров&nbsp;&mdash; леса карельских национальных
+              парков из-за непроходимых болот никогда не&nbsp;знали топора.
+              Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь
+              к&nbsp;живому существу, видевшему солнце раньше, чем увидал его
+              Иван Грозный. В&nbsp;девственном лесу на сотню километров
+              не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в
+              паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все
+              знали, кто тут хозяин.
+            </p>
+          </div>
         </article>
       </section>
       <!--cover-->
