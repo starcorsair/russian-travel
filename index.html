@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествие по России</title>
-    <link rel="icon" href="images/header-logo.svg" />
+
     <link rel="stylesheet" href="./pages/index.css" />
     <!--импортирован шрифт в index.css-->
   </head>
@@ -13,10 +13,14 @@
     <!--header-->
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="Логотип" />
-      <a></a>
-      <a href="#" class="header__lang-link">Ru</a>
-      <!--Сделать активное состоянин ссылки-->
-      <a></a>
+      <!--див для создания сетки с разными расстояниями между элементами-->
+      <div></div>
+
+      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      <!--изменено-->
+      <!--див для создания сетки с разными расстояниями между элементами-->
+      <div></div>
+
       <a href="#" class="header__lang-link">En</a>
     </header>
     <!--site content-->
@@ -50,29 +54,26 @@
         </p>
         <ul class="intro__text-caption">
           <!--убран лишний класс-->
+          <li><span class="intro__accent">Часовых поясов </span>11</li>
+          <!--изменено-->
           <li>
-            <span class="intro__text-caption_accent">Часовых поясов </span>11
-          </li>
-          <li>
-            <span class="intro__text-caption_accent"
+            <span class="intro__accent"
               >Объектов природного наследия ЮНЕСКО</span
             >
             12
           </li>
           <li>
-            <span class="intro__text-caption_accent">
+            <span class="intro__accent">
               Объектов культурного наследия ЮНЕСКО</span
             >
             16
           </li>
           <li>
-            <span class="intro__text-caption_accent"
-              >Природных заповедников</span
-            >
+            <span class="intro__accent">Природных заповедников</span>
             105
           </li>
           <li>
-            <span class="intro__text-caption_accent">Аэропортов</span>
+            <span class="intro__accent">Аэропортов</span>
             241
           </li>
         </ul>
@@ -150,9 +151,11 @@
           <h2 class="place__title">Куршская коса</h2>
 
           <div class="place__website">
-            <p class="url-heading">URL</p>
-            <!--Переделать название класса в place__url-heading-->
-            <a class="url" href="park-kosa.ru" target="_blank">park-kosa.ru</a>
+            <p class="place__heading">url</p>
+            <!--Переделать название класса в place__heading-->
+            <a class="place__url" href="park-kosa.ru" target="_blank"
+              >park-kosa.ru</a
+            >
           </div>
           <img
             class="place__image"
@@ -184,9 +187,9 @@
           <h2 class="place__title">Кольский</h2>
 
           <div class="place__website">
-            <p class="url-heading">URL</p>
+            <p class="place__heading">url</p>
             <a
-              class="url"
+              class="place__url"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
               >National Geographic</a
@@ -222,9 +225,9 @@
           <h2 class="place__title">Алтай</h2>
 
           <div class="place__website">
-            <p class="url-heading">URL</p>
+            <p class="place__heading">url</p>
             <a
-              class="url"
+              class="place__url"
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
               >Facebook</a
@@ -254,8 +257,11 @@
           <h2 class="place__title">Зимний Байкал</h2>
 
           <div class="place__website">
-            <p class="url-heading">URL</p>
-            <a class="url" href="https://vk.com/baikalmile" target="_blank"
+            <p class="place__heading">url</p>
+            <a
+              class="place__url"
+              href="https://vk.com/baikalmile"
+              target="_blank"
               >https://vk.com/baikalmile</a
             >
           </div>
@@ -286,8 +292,8 @@
           <h2 class="place__title">Карелия</h2>
 
           <div class="place__website">
-            <p class="url-heading">URL</p>
-            <a class="url" href="http://vodlozero.ru" target="_blank"
+            <p class="place__heading">url</p>
+            <a class="place__url" href="http://vodlozero.ru" target="_blank"
               >http://vodlozero.ru/</a
             >
           </div>

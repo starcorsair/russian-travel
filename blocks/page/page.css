@@ -1,8 +1,8 @@
 .page {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+
+  font-family: "Inter", Arial, Helvetica, sans-serif; /*изменено*/
   font-size: 16px;
-  background-color: #181a19;
-  overflow-x: hidden;
+  background-color: #2a2c2f; /*изменено*/
 }

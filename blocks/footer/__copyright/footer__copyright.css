@@ -19,11 +19,3 @@
     width: fit-content;
   }
 }
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    margin-left: 1rem;
-    margin-top: 3rem;
-    order: 2;
-    width: fit-content;
-  }
-}

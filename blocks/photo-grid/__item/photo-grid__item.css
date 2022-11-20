@@ -1,5 +1,4 @@
 .photo-grid__item {
-  width: 100%;
-  height: 13.3125rem;
+  width: 100%; /*изменено*/
   object-fit: contain;
 }
