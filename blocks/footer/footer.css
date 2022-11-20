@@ -11,3 +11,12 @@
     max-width: 288px;
   }
 }
+/*для этих размеров тоже нужен такой же код!*/
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0 0 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 288px;
+  }
+}
