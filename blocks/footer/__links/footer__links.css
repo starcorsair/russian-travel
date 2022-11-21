@@ -1,29 +1,12 @@
 .footer__links {
   list-style: none;
-  padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(5, 0fr);
-  grid-column-gap: 18px;
+  padding: 0;
+  display: flex;
 }
-@media screen and (max-width: 320px) and (max-width: 768px) {
-  .footer__links {
-    margin-top: 4rem;
-    margin-left: 1rem;
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: repeat(5, 0fr);
-    grid-row-gap: 32px;
-  }
-}
-/*для этого размера нужен такой же стиль!*/
+
 @media screen and (max-width: 768px) {
   .footer__links {
-    margin-top: 4rem;
-    margin-left: 1rem;
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: repeat(5, 0fr);
-    grid-row-gap: 32px;
+    display: block;
   }
 }

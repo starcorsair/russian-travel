@@ -1,8 +1,44 @@
 .page {
-  margin: 0;
-  padding: 0;
+  background-color: #2a2c2f;
+  font-family: "Inter", "Arial", "sans-serif";
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box; /*убрать скролл*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+/*убрать скролл*/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-  font-family: "Inter", Arial, Helvetica, sans-serif; /*изменено*/
-  font-size: 16px;
-  background-color: #2a2c2f; /*изменено*/
+@media screen and (max-width: 1280px) {
+  .page {
+    max-width: 1280px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page {
+    max-width: 375px;
+  }
 }

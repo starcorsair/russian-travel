@@ -1,18 +1,51 @@
 .cover__title {
-  color: #ffffff;
-  font-size: 4.5rem;
+  max-width: 1095px;
+  font-style: normal;
   font-weight: 900;
-  line-height: 4.75rem;
-  letter-spacing: 0em;
+  font-size: 72px;
+  line-height: 78px;
   text-align: center;
-  margin: 0 0 1rem;
-  max-width: 35rem;
+  color: #fffdfd;
+  margin: 275px auto 0;
+  position: relative;
+  z-index: 1;
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 1280px) {
   .cover__title {
-    font-size: 2rem;
-    line-height: 2.1875rem;
-    margin-bottom: 0.5rem; /*изменено*/
-    max-width: 18rem;
+    max-width: 1094px;
+    margin-top: 276px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    max-width: 540px;
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    max-width: 540px;
+    margin-top: 177px;
+    font-size: calc(2.0rem + 40 * (100vw - 320px) / 448);
+    line-height: calc(2.1rem + 43 * (100vw - 320px) / 448);
+  }
+}
+@media screen and (max-width: 375px) {
+  .cover__title {
+    max-width: 343px;
+    margin-top: 105px;
+    padding:0 50px 0 50px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 343px;
+    margin-top: 67px;
+    padding:0 47px 0 47px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

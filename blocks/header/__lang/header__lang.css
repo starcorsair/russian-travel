@@ -1,0 +1,26 @@
+.header__lang {
+  text-decoration: none;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.header__lang:hover {
+  opacity: 0.5;
+}
+.header__lang:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 375px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+
+}

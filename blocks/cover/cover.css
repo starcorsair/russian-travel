@@ -1,23 +1,29 @@
 .cover {
-  margin: 5.75rem 3rem 5.75rem;
-  padding: 0;
+  max-width: 1184px;
+  margin: 91px auto auto;
+  position: relative;
 }
-
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 64rem;
-    margin: 5.75rem 0 0;
+    max-width: 1045px;
+    margin-top: 102px;
   }
 }
-@media screen and(max-width:768px) {
+@media screen and (max-width: 768px) {
   .cover {
-    max-width: 48rem;
-    margin: 5.625rem 0 5.5rem;
+    max-width: 768px;
+    margin-top: 49px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .cover {
+    max-width: 375px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 100%;
-    margin: 4.125rem 0 4rem;
+    max-width: 320px;
+    margin-top: 12px;
   }
 }

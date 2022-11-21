@@ -1,22 +1,28 @@
 .footer {
-  margin: 0 3rem 1.5rem;
+  max-width: 1184px;
+  width: 93%;
+  margin: 154px auto 48px;
   display: flex;
-  flex-flow: row wrap;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    margin: 0 0 1.5rem;
-    display: flex;
-    flex-flow: column nowrap;
-    max-width: 288px;
+    max-width: 929px;
   }
 }
-/*для этих размеров тоже нужен такой же код!*/
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 0 0 1.5rem;
     display: flex;
-    flex-flow: column nowrap;
-    max-width: 288px;
+    flex-direction: column;
+    max-width: 722px;
+    margin-top: 99px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    max-width: 282px;
+    width: 93%;
+    margin: 0;
+    margin-bottom: 24px;
   }
 }

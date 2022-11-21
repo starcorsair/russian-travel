@@ -1,29 +1,49 @@
 .place__paragraph {
-  margin-top: 0;
-  padding: 0;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
+  margin: 0 auto 20px 40px;
+  max-width: 484px;
   font-style: normal;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
 }
-@media screen and (max-width: 320px) {
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 1rem;
-
-    line-height: 1.625rem;
+    margin: 0 auto 23px 0;
   }
 }
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    font-size: 1rem;
-
-    line-height: 1.625rem;
-
-    margin: 32px 0 50px;
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 352px;
+    margin: 0 auto 30px 0;
   }
 }
-
-/*изменено*/
+@media screen and (max-width: 375px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 352px;
+    width: 93%;
+    margin: 0 auto;
+    padding: 5px 5px 0px 5px;
+  }
+  /* .place__paragraph:last-child {
+    padding-bottom: 0;
+    padding-top: 0;
+  } */
+}
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 169.43%;
+    max-width: 288px;
+    margin: 0 auto;
+    padding: 1px 2px 1px 2px;
+  }
+}

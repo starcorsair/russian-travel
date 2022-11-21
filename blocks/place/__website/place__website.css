@@ -1,8 +1,23 @@
+
 .place__website {
-  align-self: end;
-}
-@media screen and (max-width: 320px) {
-  .place__website {
-    margin-left: 1rem;
+    max-width: 484px;
+    margin: auto auto 60px 40px;
+    grid-area: website;
   }
-}
+  @media screen and (max-width:1024px){
+    .place__website{
+     max-width: 456px;
+     margin: auto auto 50px 0;
+      
+    }
+  }
+  @media screen and (max-width:611px){
+    .place__website{
+     display: none;
+    }
+  }
+  /* @media screen and (max-width:320px){
+    .place__website{
+     display: none;
+    }
+  } */

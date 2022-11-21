@@ -1,27 +1,29 @@
 .header {
-  min-height: 4.39%;
-  min-width: 90%;
-  margin-top: 1.75rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 0;
-  display: grid;
-  grid-template-columns: 176px 1fr 30px 16px 30px;
+  display: flex;
+  margin: 30px 128px 0 128px;
+  max-width: 1184px;
+  height: 52px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1280px) {
   .header {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 0;
-    max-width: 288px;
+    width: 93%;
+    margin: 30px auto 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    padding: 0 48px;
   }
 }
 @media screen and (max-width: 768px) {
   .header {
-    margin-top: 1.75rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 0;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    margin: 16px auto 0 auto;
+    padding: 0 16px;
   }
 }
