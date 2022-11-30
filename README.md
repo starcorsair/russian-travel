@@ -19,4 +19,4 @@
 Css, html, grid, flex;
 
 **Сайт проекта**
-https://paulinn-light.github.io/russian-travel/
+https://starcorsair.github.io/russian-travel/
